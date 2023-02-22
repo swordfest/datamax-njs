@@ -8,11 +8,12 @@ import { useRouter } from "next/router"
 export default function Home() {
   const router = useRouter();
 
-  // useEffect(() => {
-  //   router.push('/login')
-  // }, [])
+  useEffect(() => {
+    router.push('/login')
+  }, [])
   
   return (
-    <div className="font-bold">aaa</div>
+    // <div className="font-bold text-red-400">aaa</div>
+    <></>
   )
 }
